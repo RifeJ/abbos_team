@@ -7,3 +7,90 @@
 body {
   background: #fff;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.btn-talk {
+  padding: 12px 30px;
+  border: 1.5px solid #333;
+  background: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.hero {
+  margin-top: 50px;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-side {
+  flex: 1;
+  max-width: 500px;
+}
+
+.text-side h1 {
+  font-size: 64px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  color: #181b1c;
+}
+
+.text-side p {
+  font-size: 18px;
+  color: #8c9294;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.btn-get-started {
+  background-color: #2d3436;
+  color: white;
+  padding: 18px 45px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-get-started:hover {
+  background-color: #000;
+}
+
+.image-side {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-side img {
+  max-width: 100%;
+  height: auto;
+}
