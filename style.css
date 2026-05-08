@@ -104,3 +104,38 @@ button:hover {
   object-fit: cover;
   margin-bottom: 10px;
 }
+
+.pricing {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-footer {
+  margin-bottom: 100px;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+}
+
+.pricing-par {
+  width: 300px;
+}
+
+.priving-btn {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.priving-btn p {
+  font-size: 20px;
+}
