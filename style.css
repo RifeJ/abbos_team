@@ -124,6 +124,11 @@ button:hover {
   gap: 52px;
 }
 
+.pricing-title{
+  font-size: 30px;
+  margin-bottom: 19px;
+}
+
 .pricing-par {
   width: 300px;
 }
